@@ -1,0 +1,124 @@
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: migrate troubleshoot
+
+Jupyter command `jupyter-notebook` not found.
+[I 2024-06-10 20:50:13.056 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-06-10 20:50:13.059 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-06-10 20:50:13.062 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-06-10 20:50:13.063 JupyterNotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-10 20:50:13.063 JupyterNotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-10 20:50:13.063 JupyterNotebookApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-10 20:50:13.063 JupyterNotebookApp] 'allow_remote_access' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-06-10 20:50:13.063 JupyterNotebookApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-06-10 20:50:13.065 ServerApp] notebook | extension was successfully linked.
+[I 2024-06-10 20:50:13.218 ServerApp] notebook_shim | extension was successfully linked.
+[W 2024-06-10 20:50:13.227 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-06-10 20:50:13.227 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-06-10 20:50:13.229 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-06-10 20:50:13.229 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-06-10 20:50:13.230 LabApp] JupyterLab extension loaded from /root/jupyter_env/lib/python3.12/site-packages/jupyterlab
+[I 2024-06-10 20:50:13.230 LabApp] JupyterLab application directory is /root/jupyter_env/share/jupyter/lab
+[I 2024-06-10 20:50:13.231 LabApp] Extension Manager is 'pypi'.
+[I 2024-06-10 20:50:13.251 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-06-10 20:50:13.254 ServerApp] notebook | extension was successfully loaded.
+[I 2024-06-10 20:50:13.254 ServerApp] The port 8889 is already in use, trying another port.
+[I 2024-06-10 20:50:13.254 ServerApp] The port 8890 is already in use, trying another port.
+[I 2024-06-10 20:50:13.254 ServerApp] The port 8891 is already in use, trying another port.
+[I 2024-06-10 20:50:13.255 ServerApp] Serving notebooks from local directory: /root
+[I 2024-06-10 20:50:13.255 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-06-10 20:50:13.255 ServerApp] http://localhost:8892/tree
+[I 2024-06-10 20:50:13.255 ServerApp]     http://127.0.0.1:8892/tree
+[I 2024-06-10 20:50:13.255 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-06-10 20:50:13.266 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-06-10 20:50:17.114 ServerApp] 302 GET / (@127.0.0.1) 0.67ms
+[I 2024-06-10 20:50:17.358 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.58ms
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: migrate troubleshoot
+
+Jupyter command `jupyter-notebook` not found.
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: migrate troubleshoot
+
+Jupyter command `jupyter-notebook` not found.
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: migrate troubleshoot
+
+Jupyter command `jupyter-notebook` not found.
+[C 2024-06-10 21:29:37.655 ServerApp] received signal 15, stopping
+[I 2024-06-10 21:29:37.655 ServerApp] Shutting down 5 extensions
